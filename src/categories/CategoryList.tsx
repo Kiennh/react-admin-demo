@@ -59,7 +59,7 @@ const CategoryGrid = () => {
                                     component="h2"
                                     align="center"
                                 >
-                                    {inflection.humanize(record.name)}
+                                    {record.name}
                                 </Typography>
                             </CardContent>
                             <CardActions
